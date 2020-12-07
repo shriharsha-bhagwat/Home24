@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="My.Widget.TextView" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/My.TA.Body1</item>
+    </style>
+
+    <style name="LoadingView">
+        <item name="loadStrokeColor">@android:color/white</item>
+        <item name="loadStrokeWidth">4dp</item>
+    </style>
+
+    <!-- button with icon at center
+    button size should be x2 than icon size you provided in
+    -->
+
+    <!-- button with letter at center -->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ActionButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">6dp</item>
+        <item name="rippleColor">@color/colorDarkGrey</item>
+        <item name="android:colorActivatedHighlight">?attr/colorAccent</item>
+        <item name="android:textColor">@color/colorDarkTextPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

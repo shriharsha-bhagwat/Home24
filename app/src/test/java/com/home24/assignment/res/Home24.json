@@ -1,0 +1,593 @@
+{
+  "articlesCount": 41058,
+  "_links": {
+    "articles": [
+      {
+        "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000091266?appDomain=1&locale=de_DE"
+      },
+      {
+        "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000062031?appDomain=1&locale=de_DE"
+      },
+      {
+        "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000073170?appDomain=1&locale=de_DE"
+      }
+    ],
+    "next": {
+      "href": "https://api-mobile.home24.com/api/v2.0/categories/100/articles?appDomain=1&locale=de_DE&offset=30&limit=30"
+    },
+    "prev": {
+      "href": "https://api-mobile.home24.com/api/v2.0/categories/100/articles?appDomain=1&locale=de_DE"
+    },
+    "self": {
+      "href": "https://api-mobile.home24.com/api/v2.0/categories/100/articles?appDomain=1&locale=de_DE"
+    }
+  },
+  "_embedded": {
+    "articles": [
+      {
+        "sku": "000000001000064495",
+        "title": "Freischwinger Augusta I (2er-Set)",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "349.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "days",
+            "amount": "3",
+            "units": "days"
+          },
+          "type": "parcelservice",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000064495-200610-13271700020-IMAGE-P000000001000064495.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 8,
+          "count": 129
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [
+          {
+            "name": "Showroom Düsseldorf",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/duesseldorfSR?appDomain=1&locale=de_DE",
+            "catalogKey": "duesseldorfSR"
+          },
+          {
+            "name": "Showroom München",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/muenchenSR?appDomain=1&locale=de_DE",
+            "catalogKey": "muenchenSR"
+          },
+          {
+            "name": "Showroom Stuttgart",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/stuttgartSR?appDomain=1&locale=de_DE",
+            "catalogKey": "stuttgartSR"
+          }
+        ],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000064495?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000021783",
+        "title": "Boxspringbett Belaja (mit Elektromotor)",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "1199.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "33",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000021783-180723-17511306-IMAGE-P000000001000021783.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 9,
+          "count": 49
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [
+          {
+            "name": "Showroom Zürich",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/zurichSr?appDomain=1&locale=de_DE",
+            "catalogKey": "zurichSr"
+          }
+        ],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000021783?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000135893",
+        "title": "Boxspringbett Lights",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "979.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "52",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000135893-181005-09495601-IMAGE-P000000001000135893.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 9,
+          "count": 25
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000135893?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000054947",
+        "title": "Wohnlandschaft Sola Flachgewebe",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "1099.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "9",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000054947-200617-13241400065-IMAGE-P000000001000054947.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 8,
+          "count": 59
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000054947?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000062037",
+        "title": "Boxspringbett Kinx",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "1599.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "23",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000062037-180717-08055055-IMAGE-P000000001000062037.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 9,
+          "count": 159
+        },
+        "availableForAR": true,
+        "labels": [],
+        "showrooms": [
+          {
+            "name": "Showroom Hamburg",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/hamburgSR?appDomain=1&locale=de_DE",
+            "catalogKey": "hamburgSR"
+          },
+          {
+            "name": "Showroom München",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/muenchenSR?appDomain=1&locale=de_DE",
+            "catalogKey": "muenchenSR"
+          },
+          {
+            "name": "Showroom Wien",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/wienSR?appDomain=1&locale=de_DE",
+            "catalogKey": "wienSR"
+          },
+          {
+            "name": "Showroom Zürich",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/zurichSr?appDomain=1&locale=de_DE",
+            "catalogKey": "zurichSr"
+          },
+          {
+            "name": "Showroom Berlin Mitte",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/berlinSR?appDomain=1&locale=de_DE",
+            "catalogKey": "berlinSR"
+          }
+        ],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000062037?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000149740",
+        "title": "TV-Lowboard Baxley",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "499.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "25",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000149740-200113-16023200008-IMAGE-P000000001000149740.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 0,
+          "count": 0
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [
+          {
+            "name": "Showroom Frankfurt a. M.",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/frankfurtSR?appDomain=1&locale=de_DE",
+            "catalogKey": "frankfurtSR"
+          }
+        ],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000149740?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000179416",
+        "title": "Sofa Garapu (3-Sitzer)",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "999.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "10",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/-/1/-1000179416-200212-09292700016-IMAGE-P000000001000179416.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 8,
+          "count": 1
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [
+          {
+            "name": "Showroom Berlin Mitte",
+            "url": "https://api-mobile.home24.com/api/v2.0/showrooms/berlinSR?appDomain=1&locale=de_DE",
+            "catalogKey": "berlinSR"
+          }
+        ],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000179416?appDomain=1&locale=de_DE"
+          }
+        }
+      },
+      {
+        "sku": "000000001000064485",
+        "title": "Vitrinenschrank Majona",
+        "description": null,
+        "prevPrice": null,
+        "manufacturePrice": null,
+        "price": {
+          "amount": "599.99",
+          "currency": "EUR",
+          "recommendedRetailPrice": false
+        },
+        "delivery": {
+          "time": {
+            "renderAs": "weeks",
+            "amount": "9",
+            "units": "days"
+          },
+          "type": "furnitureshipping",
+          "terms": null,
+          "deliveredBy": null,
+          "text": "",
+          "typeLabelLink": "",
+          "details": []
+        },
+        "brand": {
+          "id": "",
+          "title": null,
+          "logo": [
+            null
+          ],
+          "description": ""
+        },
+        "media": [
+          {
+            "uri": "https://cdn1.home24.net/resized/media/catalog/product/m/c/mca-direkt-fenja-25-06-2014-981702.png?output-format=jpg&interpolation=progressive-bicubic",
+            "mimeType": "image/png",
+            "type": null,
+            "priority": 0,
+            "size": null
+          }
+        ],
+        "assemblyService": null,
+        "availability": null,
+        "url": null,
+        "energyClass": null,
+        "discount": 0.0,
+        "reviews": {
+          "rating": 8,
+          "count": 23
+        },
+        "availableForAR": false,
+        "labels": [],
+        "showrooms": [],
+        "_metadata": {
+          "type": "article"
+        },
+        "_links": {
+          "webShopUrl": null,
+          "self": {
+            "href": "https://api-mobile.home24.com/api/v2.0/articles/000000001000064485?appDomain=1&locale=de_DE"
+          }
+        }
+      }
+    ]
+  }
+}

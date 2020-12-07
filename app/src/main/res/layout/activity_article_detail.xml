@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.home24.assignment.presentation.ui.article.ArticleListViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDarkBackground"
+        tools:context=".presentation.ui.article.ArticleListActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorDarkBackgroundShade"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="@string/app_name" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <ImageButton
+            android:id="@+id/gridButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:background="@{viewModel.gridLayout.peekContent() ? @drawable/ic_square_stroked_solid : @drawable/ic_square_stroked}"
+            android:onClick="@{() -> viewModel.onGridLayoutSelected()}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_bar"
+            app:srcCompat="@drawable/ic_grid"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/articleRv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layoutAnimation="@anim/layout_animation_fall"
+            android:orientation="vertical"
+            app:articleDetailList="@{viewModel.articles}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gridButton"
+            tools:listitem="@layout/item_article" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
