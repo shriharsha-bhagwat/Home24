@@ -18,7 +18,7 @@ interface IArticleLocalDataSource {
     suspend fun getAllArticles(): SimpleResult<List<ArticleEntity>>
 
     /**
-     * Get Venue which corresponds to given [id]
+     * Get Article which corresponds to given [id]
      */
     suspend fun getArticle(id: String): SimpleResult<ArticleEntity>
 

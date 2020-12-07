@@ -67,7 +67,7 @@ class ArticleListViewModel(private val repository: IArticleRepository) : BaseVie
 
             repository.getListOfArticles().fold(
                 success = {
-                    _onMessageEvent.value = Event("Loaded Venues to DB")
+                    _onMessageEvent.value = Event("Loaded articles to DB")
                 },
                 failure = {
                     _onErrorEvent.value = Event(it.localizedMessage)

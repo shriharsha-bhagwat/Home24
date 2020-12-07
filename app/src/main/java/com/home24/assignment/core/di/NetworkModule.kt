@@ -3,6 +3,7 @@ package com.home24.assignment.core.di
 import android.util.Log
 import com.home24.assignment.core.Home24App
 import com.home24.assignment.core.utils.AppConstants
+import com.home24.assignment.core.utils.AppConstants.BASE_URL
 import com.home24.assignment.core.utils.serialization.asConverterFactory
 import com.home24.assignment.data.datasource.remote.article.api.ArticleDataApi
 import kotlinx.serialization.json.Json
@@ -14,13 +15,12 @@ import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module
 import retrofit2.Retrofit
 
-private const val BASE_URL = "https://fake-poi-api.mytaxi.com/"
 
 private val contentType = "application/json".toMediaType()
 
 val NetworkModule = module {
     single { provideRetrofit() }
-    single { provideVenueDataApi(retrofit = get()) }
+    single { provideArticlesDataApi(retrofit = get()) }
 }
 
 fun provideRetrofit(): Retrofit =
@@ -64,5 +64,5 @@ fun provideRetrofit(): Retrofit =
         .build()
 
 
-fun provideVenueDataApi(retrofit: Retrofit): ArticleDataApi =
+fun provideArticlesDataApi(retrofit: Retrofit): ArticleDataApi =
     retrofit.create(ArticleDataApi::class.java)

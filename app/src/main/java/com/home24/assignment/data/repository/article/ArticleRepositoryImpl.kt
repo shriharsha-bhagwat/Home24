@@ -32,12 +32,12 @@ class ArticleRepositoryImpl(
     suspend fun storeArticlesInLocal(response: ArticleListResponse) {
         localDataSource.clearAll()
 
-        val venues = mutableListOf<ArticleEntity>()
+        val articles = mutableListOf<ArticleEntity>()
         response.embedded.articles.forEach {
-            venues.add(EntityMappers.toDto(it))
+            articles.add(EntityMappers.toDto(it))
         }
 
-        localDataSource.insertArticles(venues)
+        localDataSource.insertArticles(articles)
     }
 
     override suspend fun observeArticles(): LiveData<SimpleResult<List<ArticleEntity>>> =

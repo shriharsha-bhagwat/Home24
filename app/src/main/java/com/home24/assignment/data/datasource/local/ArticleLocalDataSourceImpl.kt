@@ -18,26 +18,26 @@ class ArticleLocalDataSourceImpl(
 ) : IArticleLocalDataSource, BaseDataSource() {
 
     override suspend fun getAllArticles(): SimpleResult<List<ArticleEntity>> =
-        safeCall(TAG) { dao.getAllVenues() }
+        safeCall(TAG) { dao.getAllArticles() }
 
     override suspend fun getArticle(id: String): SimpleResult<ArticleEntity> =
-        safeCall(TAG) { dao.getVenueById(id) }
+        safeCall(TAG) { dao.getArticlesById(id) }
 
     override suspend fun insertArticle(articleEntity: ArticleEntity): SimpleResult<Unit> =
-        safeCall(TAG) { dao.insertVenue(articleEntity) }
+        safeCall(TAG) { dao.insertArticle(articleEntity) }
 
     override suspend fun deleteArticle(articleEntity: ArticleEntity): SimpleResult<Unit> =
-        safeCall(TAG) { dao.deleteVenue(articleEntity) }
+        safeCall(TAG) { dao.deleteArticle(articleEntity) }
 
     override suspend fun clearAll(): SimpleResult<Unit> = safeCall(TAG) { dao.clearAll() }
 
     override suspend fun observeArticles(): LiveData<SimpleResult<List<ArticleEntity>>> {
-        return dao.observeVenues().map {
+        return dao.observeArticles().map {
             ResultState.Success(it)
         }
     }
 
     override suspend fun insertArticles(articles: List<ArticleEntity>): SimpleResult<Unit> =
-        safeCall(TAG) { dao.insertVenues(articles) }
+        safeCall(TAG) { dao.insertArticles(articles) }
 
 }

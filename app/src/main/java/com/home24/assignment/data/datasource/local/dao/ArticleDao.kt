@@ -6,7 +6,7 @@ import com.home24.assignment.core.database.Home24RoomDatabase
 import com.home24.assignment.data.datasource.local.entities.ArticleEntity
 
 /**
- * Dao is responsible for storing and retrieving Venues info from database
+ * Dao is responsible for storing and retrieving Articles info from database
  */
 
 @Dao
@@ -14,22 +14,22 @@ interface ArticleDao {
 
     @Transaction
     @Query("SELECT * FROM ${Home24RoomDatabase.HOME24_TABLE} ORDER By id")
-    fun observeVenues(): LiveData<List<ArticleEntity>>
+    fun observeArticles(): LiveData<List<ArticleEntity>>
 
     @Query("SELECT * FROM ${Home24RoomDatabase.HOME24_TABLE}")
-    suspend fun getAllVenues(): List<ArticleEntity>
+    suspend fun getAllArticles(): List<ArticleEntity>
 
     @Query("SELECT * FROM ${Home24RoomDatabase.HOME24_TABLE} WHERE id = :id")
-    suspend fun getVenueById(id: String): ArticleEntity
+    suspend fun getArticlesById(id: String): ArticleEntity
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertVenue(article: ArticleEntity)
+    suspend fun insertArticle(article: ArticleEntity)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertVenues(articles: List<ArticleEntity>)
+    suspend fun insertArticles(articles: List<ArticleEntity>)
 
     @Delete
-    suspend fun deleteVenue(article: ArticleEntity)
+    suspend fun deleteArticle(article: ArticleEntity)
 
     @Query("DELETE FROM ${Home24RoomDatabase.HOME24_TABLE}")
     suspend fun clearAll()
